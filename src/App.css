@@ -1,0 +1,63 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 128, 255),
+    rgb(0, 255, 247)
+  );
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  /* margin: 20px; */
+  /* background-color: green; */
+  height: 100vh;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+ul {
+  padding: 5px;
+  width: 250px;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 50px !important;
+  text-transform: uppercase;
+}
+
+.btn,
+.btn-primary {
+  font-size: 10px;
+  font-weight: bold;
+}
